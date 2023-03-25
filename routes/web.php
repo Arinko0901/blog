@@ -12,4 +12,5 @@ use App\Http\Controllers\PostController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/posts',[PostController::class,'index']);
+Route::get('/',[ postcontroller::class,'index']);
+//viewヘルパはcontrollerやweb.phpからviewフォルダー内のファイルを表示したいときに使います。
